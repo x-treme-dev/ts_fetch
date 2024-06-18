@@ -1,0 +1,35 @@
+body{
+    background-color: #fdebd0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    max-width: 1200px;
+    width: 75vw;
+    margin: 0 auto 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 50%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+  }
+  
+  .table__th{
+    font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+  }
+  
+  .table__td {
+    border: 1px solid #dddddd;
+	padding: 5px;
+  }
